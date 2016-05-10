@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+# Installing 12factor gem.
+gem 'rails_12factor', group: :production
