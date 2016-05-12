@@ -53,3 +53,6 @@ gem 'sass-rails'
 
 # Adding kaminari for pagination.
 gem 'kaminari'
+
+# Adding simple_form for form submittal.
+gem 'simple_form'
