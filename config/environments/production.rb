@@ -1,4 +1,8 @@
 Rails.application.configure do
+
+  #Adding default url for Devise.
+  config.action_mailer.default_url_options = { host: 'nomster-jessica-lee.herokuapp.com' }
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

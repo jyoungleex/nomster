@@ -56,3 +56,6 @@ gem 'kaminari'
 
 # Adding simple_form for form submittal.
 gem 'simple_form'
+
+# Adding devise for user authentification. Avoid using older versions with conflicts to Heroku.
+gem 'devise', '>= 3.2.4'
