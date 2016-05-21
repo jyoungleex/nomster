@@ -59,3 +59,9 @@ gem 'simple_form'
 
 # Adding devise for user authentification. Avoid using older versions with conflicts to Heroku.
 gem 'devise', '>= 3.2.4'
+
+# Adding geocoder
+gem 'geocoder'
+
+# Adding figaro to hide our API
+gem "figaro", ">= 1.0.0"
