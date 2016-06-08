@@ -68,3 +68,6 @@ gem "figaro", ">= 1.0.0"
 
 #Adding carrierwave for photos
 gem 'carrierwave'
+
+#Adding fog to communicate with AWS
+gem 'fog'
