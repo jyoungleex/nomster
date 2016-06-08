@@ -65,3 +65,6 @@ gem 'geocoder'
 
 # Adding figaro to hide our API
 gem "figaro", ">= 1.0.0"
+
+#Adding carrierwave for photos
+gem 'carrierwave'

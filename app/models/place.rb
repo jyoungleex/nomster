@@ -9,4 +9,5 @@ class Place < ActiveRecord::Base
   after_validation :geocode
 
   has_many :comments
+  has_many :photos
 end
