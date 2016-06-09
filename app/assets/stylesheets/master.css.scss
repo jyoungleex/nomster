@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,100);
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -77,12 +78,12 @@ blockquote p {
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  height: 470px;
+  height: 550px;
   width: 100%;
 }
 
 .carousel-caption {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Catamaran, Helvetica, sans-serif;
   font-size: 60px;
   font-weight: 100;
   text-shadow: rgba(0,0,0,0.95) 2px 2px;
