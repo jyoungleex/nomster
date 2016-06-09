@@ -102,15 +102,16 @@
 <div class="booyah-box col-xs-10 col-xs-offset-1">
 <h1>Pictures</h1>
 <% @place.photos.each do |photo| %>
-  <br />
   <div class="col-xs-12 col-sm-4">
-  <% if photo.picture.present? %><%= image_tag(photo.picture, :size => "250")%><% end %>
+  <br /><% if photo.picture.present? %><%= image_tag(photo.picture, :size => "250")%><% end %>
   <% if photo.caption.present? %><br /><small><%= photo.caption %></small>
-  <% else %><br /><% end %>
+  <% end %>
   </div>
 <% end %>
 </div>
 
+
+<div class="clear"></div><br/>
 <div class="col-xs-10 col-xs-offset-1">
 <h1 class="pull-left">Comments</h1>
 <!-- Button trigger modal -->
@@ -123,7 +124,7 @@
 <% @place.comments.each do |comment| %>
   <div class="col-xs-12 col-sm-6">
     <blockquote>
-      <% comment.humanized_rating.present? %><b><%= comment.humanized_rating %></b> -
+      <% comment.humanized_rating.present? %><b><%= comment.humanized_rating %> -</b> 
       <%= comment.message %>
       <small><%= comment.user.email %></small>
     </blockquote>

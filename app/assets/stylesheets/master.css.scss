@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -18,7 +20,7 @@
 }
 
 .navbar-inverse .navbar-brand {
-  color: #23E8DE;
+  color: #7fc6ae;
   font-family: 'permanent_markerregular', Helvetica, sans-serif;
   font-weight: 100;
   letter-spacing: -0.3px;
@@ -35,11 +37,16 @@
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding: 0;
+  font-family: 'Noto Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 body {
   background: url('/assets/groovepaper.png');
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+a {
+  color:  #7fc6ae;
 }
 
 #map {
@@ -70,7 +77,7 @@ blockquote p {
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  height: 550px;
+  height: 470px;
   width: 100%;
 }
 
@@ -87,4 +94,10 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.style_image {
+  display:block;
+  margin:auto;
+  padding: 5px;
 }
